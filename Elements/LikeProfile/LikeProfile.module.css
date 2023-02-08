@@ -1,0 +1,17 @@
+.like{
+    display: flex;
+    align-items: flex-start;
+}
+
+.like_box{
+    width:40px;
+    height:40px;
+    background-color: var(--main-bg-color);
+    border:  3px solid var(--icons-color);
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.like_box_img{
+    border-radius: 50%;
+}

@@ -1,0 +1,11 @@
+.audioWrapper {
+    display: grid;
+    max-width: 25%;
+    grid-template-rows: repeat(2,1fr);
+    font-size: 2rem;
+    background-color: blueviolet;
+    gap: 2rem;
+  }
+  .audioTag{
+    margin: 1rem;
+  }

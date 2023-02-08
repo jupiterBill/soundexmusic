@@ -1,0 +1,20 @@
+.Explore{
+    padding: .5rem 1rem;
+    transition:  all .3s ease-in;
+    transition: justify-content .3s ease-in, align-items .3s ease-in;
+    z-index: 2222222222;
+}
+
+.Explore:hover{
+    background-color: var(--icons-bg-color);
+    color: var(--shadow-dark-color);
+    transition: color .3s ease-in;
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    outline : 2px solid var(--icons-color);
+    outline-offset: .2rem;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,6 @@
+.collectionMain{
+    display: flex;
+    flex-flow: row wrap;
+    gap:4rem;
+    
+}

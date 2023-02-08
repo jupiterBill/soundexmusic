@@ -1,0 +1,12 @@
+import Button from './Buttons/Buttons';
+import Footer from './Footer/footer';
+import NavBar from './Nav-Bar/NavBar';
+import Main from './Main/Main';
+import Slider from './Slider/Slider';
+import Signup from './Signup/signup';
+import Title from './Title/Title';
+import Category from './Category/Category';
+import LikeProfile from './LikeProfile/LikeProfile';
+import AudioLive from './Audio/Audio';
+import AudioComp from './testAudio/soundcomponent';
+export {Button,Footer,NavBar,Main,Slider,Signup,Title,Category,LikeProfile,AudioLive,AudioComp};

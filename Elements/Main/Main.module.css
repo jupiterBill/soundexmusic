@@ -1,0 +1,76 @@
+
+.Main{
+    width: 90%;
+    margin: 3rem auto;
+    
+}
+
+.Main_box {
+    
+    padding: 6rem;
+    padding-right: 6rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('https://soundex.infura-ipfs.io/ipfs/QmfPwZpSKtYYM5Fi4BQ26BU7BdDjthV5CTzANsApvCitiQ');
+    transition: background-image 1s ease-in-out;
+    animation: change-background 20s infinite;
+    border-radius: 1.5rem;
+}
+.Btn{
+  margin-inline:auto;
+}
+@keyframes change-background {
+    0% {
+        background-image: url('https://soundex.infura-ipfs.io/ipfs/QmcCT3UDqsFdKivDqYWM2Uyeppukeva9hRZ2rwLipGzLPL');
+      }
+      20% {
+        background-image: url('https://soundex.infura-ipfs.io/ipfs/QmVKnTH221Lx3ktbXxCAY3bA5GF2PxQYjpo2r3Nn89UCAJ');
+      }
+      40% {
+        background-image: url('https://soundex.infura-ipfs.io/ipfs/QmTfSatkuyxfgPo2faPBdtXZthWoGcK7G9KBWTeGeJkaCy');
+      }
+      60% {
+        background-image: url('https://soundex.infura-ipfs.io/ipfs/QmSc1ktqiL6AZx4pQVaud3mQqFJV6Tjg4u5UpnA6vcxWBM');
+      }
+      80% {
+        background-image: url('https://soundex.infura-ipfs.io/ipfs/QmcCT3UDqsFdKivDqYWM2Uyeppukeva9hRZ2rwLipGzLPL');
+      }
+      100% {
+        background-image: url('https://soundex.infura-ipfs.io/ipfs/QmfPwZpSKtYYM5Fi4BQ26BU7BdDjthV5CTzANsApvCitiQ');
+      }
+}
+.Main_box_left h1{
+    font-size: 4rem;
+    font-style:italic;
+    line-height: 1;
+
+   
+}
+
+.Main_box_left p{
+    margin-bottom:  2rem;
+}
+
+@media screen and (max-width: 35em) {
+    .Main{
+        width: 90%;
+    }
+    .Main_box_left h1{
+      line-height: 1;
+      font-size: 2px;
+  }
+    
+}
+
+@media screen and (max-width: 55em) {
+   
+
+    .Main_box_left{
+        padding-right: 2rem;
+    }
+
+    .Main_box_left h1{
+        line-height: 1;
+        font-size: 2px;
+    }
+}

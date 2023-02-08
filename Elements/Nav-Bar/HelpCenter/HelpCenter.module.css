@@ -1,0 +1,17 @@
+.HelpCenter{
+    padding: .5rem 1rem;
+    transition:  all .3s ease-in;
+    z-index: 2222222222;
+}
+.HelpCenter:hover{
+    background-color: var(--icons-bg-color);
+    color: var(--shadow-dark-color);
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    outline : 2px solid var(--icons-color);
+    outline-offset: .2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

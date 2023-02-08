@@ -1,0 +1,35 @@
+
+
+.author{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 6rem;
+}
+.MarketItems{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap:5rem;
+}
+.Title{
+    font-style: italic;
+    text-align: center;
+    border: 2px solid var(--icons-color);
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius:2rem ;
+    transform: skew(0.5deg,0.5deg);
+}
+@media screen and (max-width: 35em) {
+    .author_box{
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .author_box{
+        width: 90%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
