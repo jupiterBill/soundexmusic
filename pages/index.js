@@ -5,6 +5,13 @@ import { Main,Slider,Signup, Title,Category,AudioLive,AudioComp} from '../Elemen
 import { NFTMarketplaceContext } from '../Context/SoundexContext';
  const Home = ()=>{
   const {fetchNFTs,currentAccount,checkIfWalletConnected} = useContext(NFTMarketplaceContext)
+  useEffect(()=>{
+    try{
+    checkIfWalletConnected();
+    }catch(error){
+      alert("Error " + error)
+    }
+  },[])
   return(
     <div className={Style.homepage}>
       <Main />

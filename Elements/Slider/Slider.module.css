@@ -170,7 +170,7 @@
 
 @media screen and (max-width: 65em) {
     .bigNFTSlider_box{
-        width: 90%;
+        width: 100%;
         padding-top: 28rem;
         grid-template-columns: 1fr;
         gap: 1rem;
@@ -185,9 +185,12 @@
         max-width: 250px;
         max-width: 200px;
     }
+    .bigNFTSlider_box_right_box{
+        width:100%;
+    }
 
     .bigNFTSlider_box_right{
-        margin-top: -70rem;
+        margin-top: -60rem;
     }
 
     .bigNFTSlider_box_left_creator{
