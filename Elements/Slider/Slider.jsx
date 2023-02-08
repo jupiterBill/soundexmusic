@@ -33,14 +33,7 @@ const Slider = ()=>{
     sound: "https://soundex.infura-ipfs.io/ipfs/QmeqwjWV5E27ogJGE6vM5opEaBBbpLbMrvaRXDpVXzES2L",
     tokenId:2
   },
-  {
-    backgroundImage:"",
-    name:"",
-    owner:"",
-    price:1,
-    seller:"",
-    tokenId:1
-  },
+
   {
     backgroundImage:"https://soundex.infura-ipfs.io/ipfs/QmXvggcBvyfkVJmUnD1ACR3MCEY6sZTdLL1YwRQzHwqAod",
     name:"ALARM",

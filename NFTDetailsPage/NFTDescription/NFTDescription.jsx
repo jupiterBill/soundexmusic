@@ -256,7 +256,7 @@ const NFTDescription = ({ nft }) => {
                   handleClick={() => {
                   buyNFT(nft)
                   router.push("/creator")
-                  window.location.reload();
+                 
                 }}
                   classStyle={Style.button}
                 />
