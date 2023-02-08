@@ -181,13 +181,13 @@ return(
 
         <div className={Style.bigNFTSlider_box_right}>
           <div className={Style.bigNFTSlider_box_right_box}>
-          <Link href={{pathname : "/NFTDetails", query:sliderData[idNumber]}}>
+    
           <AudioCard src={sliderData[idNumber].sound}
          name = {sliderData[idNumber].name}
          price= {sliderData[idNumber].price}
          tokenId= {sliderData[idNumber].tokenId} 
          backgroundImage = {sliderData[idNumber].backgroundImage}/>
-         </Link>
+         
             <div className={Style.bigNFTSlider_box_right_box_like}>
               <AiFillHeart />
               <span>5</span>
