@@ -54,7 +54,6 @@ contract SoundexMarketplace is ERC721URIStorage {
 
 
     function getItemAtIndex(uint256 tokenId) public  view returns( MarketItem memory){
-
       return marketItemIndex[tokenId];
     } 
     
@@ -154,7 +153,7 @@ contract SoundexMarketplace is ERC721URIStorage {
       return items;
     }
 
-
+  
 
 
     /* Returns  items that a user has either purchased or listed onto soundex */
