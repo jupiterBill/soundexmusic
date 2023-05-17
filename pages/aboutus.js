@@ -8,22 +8,22 @@ import Style from "../styles/aboutus.module.css";
 const aboutus = () => {
   const founderArray = [
     {
-      name: "Wale Oladeinde",
+      name: "Wale ",
       position: "Founder and Chief Executive",
       images: "https://soundex.infura-ipfs.io/ipfs/QmRArRveFguRGKFa4gggRo4qoqx75AnVAZDLzWCk4CQ3gn",
     },
     {
-      name: "Edwin Anajemba",
+      name: "Edwin",
       position: "Co-founder and Chief Executive",
       images: "https://soundex.infura-ipfs.io/ipfs/Qma2CbrUCDFE2oWqbYTvva8UFPs4TJE3sgqoybgqzLqBN5",
     },
     {
-      name: "olalekan solomon",
+      name: "olalekan ",
       position: "Co-founder, Chairman",
       images: "https://soundex.infura-ipfs.io/ipfs/QmSLYAnmiswCjeehP7SME5VrgB5nW3YqwNDUWDXzyyzUgG",
     },
     {
-      name: "zeno ezeanakwe",
+      name: "zeno ",
       position: "Co-Founder, Chief Strategy Officer",
       images: "https://soundex.infura-ipfs.io/ipfs/QmXFkAShcK2W6boWmSTS2URYVCzuhoKS2dHaiC6DfhuMdt",
     },
